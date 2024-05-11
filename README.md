@@ -30,7 +30,9 @@ Como não foi possivel rodas ambos os arquivos "py" juntos, optei por roda-los s
 </ul>
 
 <h5>(fig.01)</h5>
-![image](https://github.com/DedecoDev/imersao_proj/assets/137828839/d083cdfb-7256-48dc-b307-c7d910a32235)
+
+![image](https://github.com/DedecoDev/imersao_proj/assets/137828839/104f282c-5c84-4a65-9771-1638ed38e37b)
+
 
 <h2>RODAR ARQUIVOS</h2>
 <h3>Necessário rodar arquivos separados</h3>
@@ -46,5 +48,18 @@ Como não foi possivel rodas ambos os arquivos "py" juntos, optei por roda-los s
 <li>Possui um campo de pergunta com filtro de palavras relacionadas a politica <strong>(fig.03) e (fig.04)</strong></li>
 <li>Projeto responsivo</li>  
 </ul>
+
+<h5>(fig.02)</h5>
+
+![image](https://github.com/DedecoDev/imersao_proj/assets/137828839/509db01a-1c74-439c-8727-80f0c2e3ad8f)
+
+<h5>(fig.03)</h5>
+
+![image](https://github.com/DedecoDev/imersao_proj/assets/137828839/3d885c1d-7721-4475-9045-c7e25c5a1e71)
+
+<h5>(fig.04)</h5>
+
+![image](https://github.com/DedecoDev/imersao_proj/assets/137828839/c66a77e3-ec91-49f9-a321-1d2665948739)
+
 
 
