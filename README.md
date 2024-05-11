@@ -18,14 +18,14 @@ Como não foi possivel rodas ambos os arquivos "py" juntos, optei por roda-los s
 <h2>VS Code</h2>
 <ul>
   <li>Instalar o Python by Microsoft </li>
-  <li>Instalar pip requests</li>
-  <li>Instalar pip install flask</li>
+  <li>pip install requests</li>
+  <li>pip install flask</li>
   <li>pip install google.generativeai</li>
   <li>pip install beautifulsoup4</li>
 </ul>
 
 <h2>RODAR ARQUIVOS</h2>
-<h3>Necessário rodar arquivos separados:</h3>
+<h3>Necessário rodar arquivos separados</h3>
 <ul>
   <li>Python noticias.py ( Roda o raspador + Busca interna)</li>
   <li>Python gemini.py (Roda o API do Gemini)</li>
