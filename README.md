@@ -36,6 +36,7 @@ Como não foi possivel rodas ambos os arquivos "py" juntos, optei por roda-los s
 
 <h2>RODAR ARQUIVOS</h2>
 <h3>Necessário rodar arquivos separados</h3>
+É necessário ver cada um dos processos de forma separada.
 <ul>
   <li>Python noticias.py ( Roda o raspador + Busca interna)</li>
   <li>Python gemini.py (Roda o API do Gemini)</li>
