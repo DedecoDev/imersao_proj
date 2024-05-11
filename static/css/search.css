@@ -1,0 +1,147 @@
+.BoxesSearch {
+    display: flex;
+    gap: var(--gapmarg);
+    width: var(--largura-fixa);
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.BoxesSearch.BlocoMaior {
+    margin: 30px auto;
+}
+
+.BoxesGemini {
+    display: flex;
+    gap: var(--gapmarg);
+    width: var(--largura-fixa);
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.BoxesGemini.BlocoMaior {
+    margin: 30px auto;
+}
+
+.BuscaRonda{
+  margin: 30px auto;
+}
+
+.BuscaRonda label {
+    margin: 0 0 6px 0;
+    font-size: 12px;
+    font-weight: 500;
+} 
+
+.BuscaRonda .row {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    gap: 11px;
+}
+
+.BuscaRonda .row .col-lg-6 {
+    padding: 0;
+    margin: 0;
+    width: 49.5%;
+}
+ 
+.BuscaRonda .input-group {
+  background: aliceblue;
+  text-align: left;
+  padding: 0px;
+  border: solid 1px #E4E4E4;
+  border-radius: 6px;
+  background-color: #fff;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.BuscaRonda .form-control {
+  height: 50px;
+  border-radius: 5px;
+  border: 0;
+  }
+  
+.BuscaRonda .input-group .btn {
+  position: relative;
+  z-index: 2;
+  width: 50px;
+  margin: 5px 0 5px 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.BuscaRonda .form-control:focus {
+  color: #2d2d2d;
+  background-color: var(--bs-body-bg);
+  border-color: #198754;
+  outline: 0;
+  box-shadow: none;
+}
+  
+.BuscaRonda .btn i{font-size: 26px;
+  margin: 0 5px 0 5px;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 5px 0 5px;
+  border-radius: 0;
+  cursor: pointer;
+}
+  
+.BuscaRonda .btn[data-bs-title="Pesquisar"] {
+  border-right: solid 1px #ccc;
+  margin-right: 10px;
+}
+  
+.BuscaRonda .btn[data-bs-title="Limpar"]{
+  border-left: solid 1px #ccc;
+  margin-left: 10px;
+}
+  
+.BuscaRonda .btn[data-bs-title="Pesquisar"]:hover {
+  border-right: solid 1px #ccc;
+  margin-right: 10px;
+}
+  
+.BuscaRonda .btn[data-bs-title="Limpar"]:hover{
+  border-left: solid 1px #ccc;
+  margin-left: 10px;
+}
+
+.ResultadoBusca #TituloBusca{display: none;}
+.ResultadoPesquisa #TituloChatBot{display: none;}
+
+#BoxRespostaGemini{
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+    padding: 1px 30px;
+}
+
+.ResultadoBusca .LinhaResultado{
+    border-bottom: 1px dashed #afafaf;
+    padding: 10px 0 10px 0;
+}
+
+.ResultadoBusca .LinhaResultado h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 0 3px 0;
+}
+
+.ResultadoBusca .LinhaResultado p{
+    margin: 0 0 4px 0;
+    padding: 0;
+}
+
+#loading {
+    display: none;
+  }
+
+.dblock{display: block !important;}
+.dnone{display: none !important}
