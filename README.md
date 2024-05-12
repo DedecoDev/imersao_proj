@@ -9,7 +9,7 @@ Foi desenvolvido totalmente em LocalHost, usando Visual Studio, Bibliotecas Boot
 Um projeto responsivo!!
 
 <h2>Atualizações Futuras</h2>
-Como não foi possivel rodas ambos os arquivos "py" juntos, optei por roda-los separadamente. Assim irei melhorar gradativamente o projeto para ser usado de forma definitiva.
+Como não foi possivel rodar ambos os arquivos "py" juntos, optei por roda-los separadamente. Assim irei melhorar gradativamente o projeto para ser usado de forma definitiva.
 
 <h2>Instalação</h2>
 <ul>
