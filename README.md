@@ -6,7 +6,7 @@ A idéia é trazer um facilitador para os jornalistas, onde jornais selecionados
 
 <h2>Desenvolvimento</h2>
 Foi desenvolvido totalmente em LocalHost, usando Visual Studio, Bibliotecas Bootstrap, Python, Css, Javascript e HTML.
-Um projeto responsivo!
+Um projeto responsivo!!
 
 <h2>Atualizações Futuras</h2>
 Como não foi possivel rodas ambos os arquivos "py" juntos, optei por roda-los separadamente. Assim irei melhorar gradativamente o projeto para ser usado de forma definitiva.
