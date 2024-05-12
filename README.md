@@ -52,7 +52,7 @@ Como não foi possivel rodar ambos os arquivos "py" juntos, optei por roda-los s
 
 <h5>(fig.02)</h5>
 
-![image](https://github.com/DedecoDev/imersao_proj/assets/137828839/509db01a-1c74-439c-8727-80f0c2e3ad8f)
+![image](https://github.com/DedecoDev/imersao_proj/assets/137828839/ef80fa88-89dd-4ac9-85cb-c9bdd25c1cc8)
 
 <h5>(fig.03)</h5>
 
@@ -60,7 +60,8 @@ Como não foi possivel rodar ambos os arquivos "py" juntos, optei por roda-los s
 
 <h5>(fig.04)</h5>
 
-![image](https://github.com/DedecoDev/imersao_proj/assets/137828839/c66a77e3-ec91-49f9-a321-1d2665948739)
+![image](https://github.com/DedecoDev/imersao_proj/assets/137828839/eeb436a7-df07-4f2d-a372-bb19a233a250)
+
 
 
 
