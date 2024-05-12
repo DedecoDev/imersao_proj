@@ -37,25 +37,8 @@ def perguntar():
     app.logger.info("Recebida uma solicitação POST para a rota /perguntar")
     
     # Palavras-chave relacionadas a política e governo
-    palavras_chave = [
-        "política", 
-        "governo", 
-        "presidente", 
-        "eleições", 
-        "partido", 
-        "democracia", 
-        "constituição", 
-        "ministério", 
-        "deputado", 
-        "senador", 
-        "prefeito", 
-        "vereador", 
-        "congresso",
-        "republica",
-        "proclamação da republica",
-        "independencia",
-        "rio grande do sul"
-        ]
+    palavras_chave = ["política","governo","presidente","eleições","partido","democracia","constituição","ministério","deputado",
+                      "senador","prefeito","vereador", "congresso","republica","proclamação da republica","independencia","rio grande do sul"]
     
     # Verificar se a pergunta contém alguma palavra-chave
     if any(palavra in pergunta for palavra in palavras_chave):

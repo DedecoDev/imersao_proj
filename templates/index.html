@@ -32,7 +32,7 @@
 <div id="preloader">
     <div class="inner">
         <div class="PoAnLogo">
-            <div class="Top"><a href=""><strong>Ronda</strong> na Política</a></div>  
+            <div class="Top"><a href=""><strong>Busca</strong> na Política</a></div>  
         </div>	
         <div class="bolas">
             <div></div>
@@ -46,7 +46,7 @@
     <!--header-->
     <header>
         <div class="HeaderDados">
-            <div class="Top"><a href=""><strong>Ronda</strong> na Política</a></div>            
+            <div class="Top"><a href=""><strong>Busca</strong> na Política</a></div>            
             <div class="Icons">
                 <!--<a href="#">
                     <i class="fa-regular fa-pen-to-square"></i>
@@ -91,7 +91,7 @@
                     </div>							
                 </div>
                 <div class="col-lg-6">		
-                    <label>Faça sua Pergunta ao Gemini</label>			
+                    <label>Faça sua Pergunta</label>			
                     <div class="input-group mb-3">                        
                         <input type="text" class="form-control" placeholder="Sobre Governo e Política" id="pergunta">						
                         <button type="button" class="btn BtBorder" id="perguntar">
@@ -107,7 +107,7 @@
         <!--resultado de busca-->
         <section class="ResultadoBusca">
             <div class="BoxesSearch BlocoMaior">
-            <div class="ChamaNoticia BNoticia" id="TituloBusca"><h2><i class="fa-solid fa-user-tie"></i>Resultado de Busca</h2></div> 
+            <div class="ChamaNoticia BNoticia" id="TituloBusca"><h2><i class="bi bi-check2-circle"></i>Resultado de Busca</h2></div> 
                 <!--dados raspados-->
                 <div id="ResultadoBuscaGemini">
                     <!--<div class="BoxResultado">
@@ -121,9 +121,20 @@
         </section>
         <section class="ResultadoPesquisa">
             <div class="BoxesGemini BlocoMaior">
-                <div class="ChamaNoticia BNoticia" id="TituloChatBot"><h2><i class="fa-solid fa-user-tie"></i>Resposta ChatBot</h2></div> 
-                <div id="loading">Carregando...</div>               
-                <div id="BoxRespostaGemini"></div>
+                <div class="ChamaNoticia BNoticia" id="TituloChatBot"><h2><i class="bi bi-check2-circle"></i>Resposta</h2></div> 
+                <div id="loading">
+                    <div class="spinner"></div>
+                    Aguarde!
+                </div>             
+                <div id="BoxRespostaGemini">
+                {% if resposta %}
+                    <p>{{ resposta }}</p>
+                {% endif %}
+            
+                {% if erro %}
+                    <p>{{ erro }}</p>
+                {% endif %}
+                </div>
             </div>
         </section>
     </section>
@@ -225,7 +236,7 @@
                 <li class="icon solid"><i class="fa-solid fa-map-location"></i>Rua Agostinho Gomes, 3.568 - Ipiranga - São Paulo/SP</li>
             </ul>
         </div>-->
-        <p class="Copyright"><strong>©2024 RONDA.</strong> Todos os Direitos Reservados</p>
+        <p class="Copyright"><strong>©2024 Busca na Política.</strong> Todos os Direitos Reservados</p>
         <p class="Copyright">Desenvolvido por <a href=""><strong>AndreTorres</strong></a>.</p>
         </div>
     </footer>
